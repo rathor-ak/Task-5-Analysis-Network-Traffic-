@@ -1,0 +1,39 @@
+Task 5: Network Traffic Capture & Analysis using Wireshark
+
+Name: [Your Name]
+Date: [Date]
+
+Objective
+Capture live network traffic using Wireshark and identify protocols.
+
+Tools Used
+- Wireshark
+
+Steps Taken
+1. Installed and launched Wireshark.
+2. Captured traffic while browsing and pinging.
+3. Filtered data for HTTP, DNS, and TCP.
+4. Exported .pcap file.
+
+Protocols Identified
+1. DNS – Domain name resolution to IP addresses.
+2. HTTP – Website requests in plaintext.
+3. TCP – Reliable transport protocol.
+
+Sample Packet Details
+DNS
+- Query: www.google.com
+- Source: 192.168.1.2
+- Destination: 8.8.8.8
+
+HTTP
+- Method: GET
+- Host: example.com
+
+TCP
+- Source port: 56789
+- Dest port: 443
+- SYN, ACK flags used
+
+Output Files
+- network_capture_task5.pcap
